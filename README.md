@@ -1,12 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name : MONISH N
-Roll no : 212223240097
-Date of experiment :
-
-
-
-
-
+ # Name : MONISH N
+# Roll no : 212223240097
+# Date of experiment :
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
 ## Components required: 8086  emulator 
 ## Theory 
