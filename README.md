@@ -102,6 +102,7 @@ mov [1424h],AH;
 
 ret  
 ## Output  
+![Screenshot 2024-03-05 152606sub](https://github.com/Monishofficial/EXPERIMENT--01-ALP-FOR-8086/assets/149455421/593ec870-2419-4037-afc1-6576e7a624bf)
 
 ## Multiplication of 8 bit ALP
 org 100H
