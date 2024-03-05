@@ -1,6 +1,6 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
+Name : MONISH N
+Roll no : 212223240097
 Date of experiment :
 
 
@@ -78,25 +78,111 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
+org 100H
 
+mov AH,0A2H;
+
+mov BH,0B3H;
+
+add AH,BH;
+
+mov [1554H],AH;
+
+ret   
 
 
 ## Output  
- 
+ ![Screenshot 2024-03-05 152634add](https://github.com/Monishofficial/EXPERIMENT--01-ALP-FOR-8086/assets/149455421/59e758b6-a984-498d-ab9e-06c969faacc5)
+
 ## Subtraction   of 8 bit numbers  ALP 
- 
+ org 100H
+
+mov AH,0C4H;
+
+mov BH,0B2H;
+
+sub AH,BH;
+
+mov [1424h],AH;
+
+ret  
 ## Output  
-## Multiplication alp 
+
+## Multiplication of 8 bit ALP
+org 100H
+
+mov AL,0C4H;
+
+mov BL,0B2H;
+
+mul BL;
+
+mov [1334H],AX;
+
+ret 
  ## Output  
+![Screenshot 2024-03-05 152654 mul](https://github.com/Monishofficial/EXPERIMENT--01-ALP-FOR-8086/assets/149455421/23413eee-dc5d-4ca3-8368-cc26327296cc)
 
 
-## Division alp 
+## Division of 8 bit ALP
+org 100H
+
+mov AL,0D5H;
+
+mov BL,0A2H;
+
+div BL;
+
+mov [1364H],AX;
+
+ret   
 
 ## Output  
+![Screenshot 2024-03-05 152716div](https://github.com/Monishofficial/EXPERIMENT--01-ALP-FOR-8086/assets/149455421/09ee7047-9d89-47f9-99d4-e9d7f9f7c566)
+
+## Program for logical operation
+org 100H  
+
+MOV SI,0532H;
+
+MOV AX,0A32H;
+
+MOV BX,0B13H;
+
+OR AX,BX;
+
+MOV [SI],AX;
+
+MOV AX,0A32H;
+
+MOV BX,0B13H;
+
+AND AX,BX; 
+
+MOV [SI+2],AX;
+
+MOV AX,0A32H;
+
+MOV BX,0B13H; 
+XOR AX,BX;    
+
+MOV [SI+4],AX;
+
+MOV AX,0A32H;
+
+NOT AX; 
+
+MOV [SI+6],AX;
+
+ret
+
+### Output:
+
+![Screenshot 2024-03-05 153102 logic](https://github.com/Monishofficial/EXPERIMENT--01-ALP-FOR-8086/assets/149455421/86c96d7f-7981-4460-9ebe-89e8f29c2b28)
 
 
 ## Result :
- 
+Thus, a program is executed on ALP for the fundamental arithmetic and logical operations.
 
 
 
